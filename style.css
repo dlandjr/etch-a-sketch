@@ -71,16 +71,15 @@ input {
     border: 1px solid rgb(0, 0, 0);
 }
 
-button
-/* .current-input,
-.current-color-mode */ {
+button,
+ .current-input,
+.current-color-mode {
     font-size: 20px;
     padding: 10px;
     background-color: #FFF7F6;
-    color: rgb(35, 36, 39);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-transform: lowercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: transform 0.3s ease;
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
@@ -96,10 +95,21 @@ button:hover {
 .current-color-mode {
     font-size: 20px;
     padding: 10px;
-    border: 2px solid #6D4243;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    background-color: #c2c2c2;
+    color: rgb(0, 0, 0);
     font-weight: 700;
+}
+
+.hint {
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
 }
 
 /* grid */

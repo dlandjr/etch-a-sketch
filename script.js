@@ -110,7 +110,7 @@ function makeNewGrid(totalDiv, colorMode = "black") {
     // Resize every square dynamically so it fits inside the given field
     function resizeSquares(totalDiv) {
         const allSquares = document.querySelectorAll(".new-grid"); // Select all squares
-        const squareSize = 800 / totalDiv; // Calculate size per square
+        const squareSize = 700 / totalDiv; // Calculate size per square
 
         allSquares.forEach(square => {
             square.style.width = `${squareSize}px`;
